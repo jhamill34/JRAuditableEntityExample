@@ -1,0 +1,19 @@
+PODS:
+  - JRAuditableEntity (0.0.1)
+  - JRAuditableEntityUI (0.0.1)
+
+DEPENDENCIES:
+  - JRAuditableEntity (from `../JRAuditableEntity`)
+  - JRAuditableEntityUI (from `../JRAuditableEntityUI`)
+
+EXTERNAL SOURCES:
+  JRAuditableEntity:
+    :path: "../JRAuditableEntity"
+  JRAuditableEntityUI:
+    :path: "../JRAuditableEntityUI"
+
+SPEC CHECKSUMS:
+  JRAuditableEntity: 41ac90c25da18472a893bb14b24e74a3c273b4be
+  JRAuditableEntityUI: adc86b95b06845b9f5a208a8d45d4609dbb83567
+
+COCOAPODS: 0.39.0

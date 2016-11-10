@@ -20,10 +20,7 @@
 		7E5019791DD3B7BF00274FDF /* PersonDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5019671DD3B7BF00274FDF /* PersonDetailsView.m */; };
 		7E50197A1DD3B7BF00274FDF /* PersonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5019691DD3B7BF00274FDF /* PersonTableViewCell.m */; };
 		7E50197B1DD3B7BF00274FDF /* PetCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E50196B1DD3B7BF00274FDF /* PetCollectionViewCell.m */; };
-		7EA9086A1DD3FC5C001AA952 /* JRAuditableEntity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA908681DD3FA0F001AA952 /* JRAuditableEntity.framework */; };
-		7EA9086B1DD3FC5C001AA952 /* JRAuditableEntity.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA908681DD3FA0F001AA952 /* JRAuditableEntity.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7EA9086C1DD3FC5C001AA952 /* JRAuditableEntityUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA908661DD3FA01001AA952 /* JRAuditableEntityUI.framework */; };
-		7EA9086D1DD3FC5C001AA952 /* JRAuditableEntityUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA908661DD3FA01001AA952 /* JRAuditableEntityUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		87099EFCC2B9EC74F4F38510 /* libPods-JRAuditableEntityExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7B5451B8ECC5552AB28C29 /* libPods-JRAuditableEntityExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,8 +30,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7EA9086B1DD3FC5C001AA952 /* JRAuditableEntity.framework in Embed Frameworks */,
-				7EA9086D1DD3FC5C001AA952 /* JRAuditableEntityUI.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,6 +37,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5D7B5451B8ECC5552AB28C29 /* libPods-JRAuditableEntityExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JRAuditableEntityExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5019221DD3B34E00274FDF /* JRAuditableEntityExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JRAuditableEntityExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5019261DD3B34E00274FDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E5019281DD3B34E00274FDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,8 +64,8 @@
 		7E5019691DD3B7BF00274FDF /* PersonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTableViewCell.m; sourceTree = "<group>"; };
 		7E50196A1DD3B7BF00274FDF /* PetCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetCollectionViewCell.h; sourceTree = "<group>"; };
 		7E50196B1DD3B7BF00274FDF /* PetCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetCollectionViewCell.m; sourceTree = "<group>"; };
-		7EA908661DD3FA01001AA952 /* JRAuditableEntityUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JRAuditableEntityUI.framework; sourceTree = "<group>"; };
-		7EA908681DD3FA0F001AA952 /* JRAuditableEntity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JRAuditableEntity.framework; sourceTree = "<group>"; };
+		E141C13FDAE51F8AB824EDB1 /* Pods-JRAuditableEntityExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRAuditableEntityExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-JRAuditableEntityExample/Pods-JRAuditableEntityExample.release.xcconfig"; sourceTree = "<group>"; };
+		FA91859692B7F79545DD1325 /* Pods-JRAuditableEntityExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRAuditableEntityExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JRAuditableEntityExample/Pods-JRAuditableEntityExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,20 +73,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EA9086A1DD3FC5C001AA952 /* JRAuditableEntity.framework in Frameworks */,
-				7EA9086C1DD3FC5C001AA952 /* JRAuditableEntityUI.framework in Frameworks */,
+				87099EFCC2B9EC74F4F38510 /* libPods-JRAuditableEntityExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D2836D3093CEE738D12E621 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA91859692B7F79545DD1325 /* Pods-JRAuditableEntityExample.debug.xcconfig */,
+				E141C13FDAE51F8AB824EDB1 /* Pods-JRAuditableEntityExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7E5019191DD3B34E00274FDF = {
 			isa = PBXGroup;
 			children = (
 				7E5019241DD3B34E00274FDF /* JRAuditableEntityExample */,
 				7E5019231DD3B34E00274FDF /* Products */,
 				7E5019E41DD3B9ED00274FDF /* Frameworks */,
+				5D2836D3093CEE738D12E621 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,8 +182,7 @@
 		7E5019E41DD3B9ED00274FDF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7EA908681DD3FA0F001AA952 /* JRAuditableEntity.framework */,
-				7EA908661DD3FA01001AA952 /* JRAuditableEntityUI.framework */,
+				5D7B5451B8ECC5552AB28C29 /* libPods-JRAuditableEntityExample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,10 +194,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E5019391DD3B34E00274FDF /* Build configuration list for PBXNativeTarget "JRAuditableEntityExample" */;
 			buildPhases = (
+				A1C32B0B6592AE7AA7574824 /* Check Pods Manifest.lock */,
 				7E50191E1DD3B34E00274FDF /* Sources */,
 				7E50191F1DD3B34E00274FDF /* Frameworks */,
 				7E5019201DD3B34E00274FDF /* Resources */,
 				7EA9086E1DD3FC5C001AA952 /* Embed Frameworks */,
+				D87F8B829CDC2BBECBFE692E /* Embed Pods Frameworks */,
+				BDA7DEF8DCDB68E848D21FBD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +255,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1C32B0B6592AE7AA7574824 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BDA7DEF8DCDB68E848D21FBD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JRAuditableEntityExample/Pods-JRAuditableEntityExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D87F8B829CDC2BBECBFE692E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JRAuditableEntityExample/Pods-JRAuditableEntityExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7E50191E1DD3B34E00274FDF /* Sources */ = {
@@ -364,6 +419,7 @@
 		};
 		7E50193A1DD3B34E00274FDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA91859692B7F79545DD1325 /* Pods-JRAuditableEntityExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G5D255SC2L;
@@ -378,6 +434,7 @@
 		};
 		7E50193B1DD3B34E00274FDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E141C13FDAE51F8AB824EDB1 /* Pods-JRAuditableEntityExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G5D255SC2L;
