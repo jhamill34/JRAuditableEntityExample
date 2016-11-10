@@ -1,0 +1,6 @@
+framework module JRAuditableEntityUI {
+  umbrella header "JRAuditableEntityUI.h"
+
+  export *
+  module * { export * }
+}
